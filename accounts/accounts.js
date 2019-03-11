@@ -1,5 +1,5 @@
-const sender_account = '0x079736f834F221f401df6010BcFE09FEb042Cb7A'
-const receiver_account = '0x43aa18FAAE961c23715735682dC75662d90F4DDe'
+const sender_account = '0xe1ea04cfff1d098215af9fa8bcc40358421b486a'
+const receiver_account = '0xB584898B18833971649832408125F5E2AF4945E3'
 
 export {
     sender_account,

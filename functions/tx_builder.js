@@ -17,7 +17,7 @@ function txBuilder({method, toAddress, nonce, value, gasLimit, gasPrice, private
 
     //parameters in common
     //get the private key from .env
-    const privateKeyHex = new Buffer(process.env[privateKey], 'hex')
+    const privateKeyHex = new Buffer(privateKey, 'hex');
     //values to hex
     const nonceHex = web3.utils.toHex(nonce)
     const valueHex = web3.utils.toHex(value)
